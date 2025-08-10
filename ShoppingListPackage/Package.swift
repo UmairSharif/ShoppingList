@@ -22,6 +22,14 @@ let package = Package(
             name: "ShoppingList",
             dependencies: [],
             path: "Sources/ShoppingList"
-        )
+        ),
+        .testTarget(
+            name: "ShoppingListTests",
+            dependencies: [
+                "ShoppingList",
+                .product(name: "Testing", package: "swift-testing")
+            ],
+            path: "Tests/ShoppingListTests"
+        ),
     ]
 )
