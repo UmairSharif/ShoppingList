@@ -1,20 +1,42 @@
-//
-//  ShoppingList.swift
-//  ShoppingListPackage
-//
+import Foundation
+import SwiftData
+import SwiftUI
 
-public struct ShoppingListInfo {
-    public let version: String
+@_exported import struct Foundation.UUID
+@_exported import struct Foundation.Date
 
-    public init(version: String = "0.1.0") {
-        self.version = version
+public struct ShoppingList {
+    @MainActor
+    public static func createView(
+        config: ShoppingListConfig = .default,
+        modelContainer: ModelContainer? = nil
+    ) throws -> ShoppingListView {
+        return try ShoppingListFactory.createShoppingListView(
+            config: config,
+            modelContainer: modelContainer
+        )
+    }
+    
+#if canImport(UIKit)
+    @MainActor
+    public static func createViewController(
+        config: ShoppingListConfig = .default,
+        modelContainer: ModelContainer? = nil
+    ) throws -> ShoppingListViewController {
+        return try ShoppingListFactory.createShoppingListViewController(
+            config: config,
+            modelContainer: modelContainer
+        )
+    }
+#endif
+    
+    public static func createDependencyContainer(
+        config: ShoppingListConfig = .default,
+        modelContainer: ModelContainer? = nil
+    ) throws -> DependencyContainer {
+        return try ShoppingListFactory.createDependencyContainer(
+            config: config,
+            modelContainer: modelContainer
+        )
     }
 }
-
-public enum ShoppingListAPI {
-    public static func makeInfo() -> ShoppingListInfo {
-        ShoppingListInfo()
-    }
-}
-
-

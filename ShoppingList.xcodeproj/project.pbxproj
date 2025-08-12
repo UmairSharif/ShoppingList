@@ -6,41 +6,45 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		80FE23EF2E4B945600CB845D /* ShoppingListSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 80FE23EE2E4B945600CB845D /* ShoppingListSDK */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		80FE240E2E4C062800CB845D /* PBXContainerItemProxy */ = {
+		80FE239B2E4945F000CB845D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80FE23F32E4C062600CB845D /* Project object */;
+			containerPortal = 80FE23802E4945EE00CB845D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80FE23FA2E4C062600CB845D;
+			remoteGlobalIDString = 80FE23872E4945EE00CB845D;
 			remoteInfo = ShoppingList;
 		};
-		80FE24182E4C062800CB845D /* PBXContainerItemProxy */ = {
+		80FE23A52E4945F000CB845D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 80FE23F32E4C062600CB845D /* Project object */;
+			containerPortal = 80FE23802E4945EE00CB845D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80FE23FA2E4C062600CB845D;
+			remoteGlobalIDString = 80FE23872E4945EE00CB845D;
 			remoteInfo = ShoppingList;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		80FE23FB2E4C062600CB845D /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80FE240D2E4C062800CB845D /* ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80FE24172E4C062800CB845D /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE23882E4945EE00CB845D /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE239A2E4945F000CB845D /* ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE23A42E4945F000CB845D /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		80FE23FD2E4C062600CB845D /* ShoppingList */ = {
+		80FE238A2E4945EE00CB845D /* ShoppingList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShoppingList;
 			sourceTree = "<group>";
 		};
-		80FE24102E4C062800CB845D /* ShoppingListTests */ = {
+		80FE239D2E4945F000CB845D /* ShoppingListTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShoppingListTests;
 			sourceTree = "<group>";
 		};
-		80FE241A2E4C062800CB845D /* ShoppingListUITests */ = {
+		80FE23A72E4945F000CB845D /* ShoppingListUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ShoppingListUITests;
 			sourceTree = "<group>";
@@ -48,21 +52,22 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80FE23F82E4C062600CB845D /* Frameworks */ = {
+		80FE23852E4945EE00CB845D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FE23EF2E4B945600CB845D /* ShoppingListSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FE23972E4945F000CB845D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FE240A2E4C062800CB845D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80FE24142E4C062800CB845D /* Frameworks */ = {
+		80FE23A12E4945F000CB845D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80FE23F22E4C062600CB845D = {
+		80FE237F2E4945EE00CB845D = {
 			isa = PBXGroup;
 			children = (
-				80FE23FD2E4C062600CB845D /* ShoppingList */,
-				80FE24102E4C062800CB845D /* ShoppingListTests */,
-				80FE241A2E4C062800CB845D /* ShoppingListUITests */,
-				80FE23FC2E4C062600CB845D /* Products */,
+				80FE238A2E4945EE00CB845D /* ShoppingList */,
+				80FE239D2E4945F000CB845D /* ShoppingListTests */,
+				80FE23A72E4945F000CB845D /* ShoppingListUITests */,
+				80FE23892E4945EE00CB845D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80FE23FC2E4C062600CB845D /* Products */ = {
+		80FE23892E4945EE00CB845D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80FE23FB2E4C062600CB845D /* ShoppingList.app */,
-				80FE240D2E4C062800CB845D /* ShoppingListTests.xctest */,
-				80FE24172E4C062800CB845D /* ShoppingListUITests.xctest */,
+				80FE23882E4945EE00CB845D /* ShoppingList.app */,
+				80FE239A2E4945F000CB845D /* ShoppingListTests.xctest */,
+				80FE23A42E4945F000CB845D /* ShoppingListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,137 +100,138 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80FE23FA2E4C062600CB845D /* ShoppingList */ = {
+		80FE23872E4945EE00CB845D /* ShoppingList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80FE24212E4C062800CB845D /* Build configuration list for PBXNativeTarget "ShoppingList" */;
+			buildConfigurationList = 80FE23AE2E4945F000CB845D /* Build configuration list for PBXNativeTarget "ShoppingList" */;
 			buildPhases = (
-				80FE23F72E4C062600CB845D /* Sources */,
-				80FE23F82E4C062600CB845D /* Frameworks */,
-				80FE23F92E4C062600CB845D /* Resources */,
+				80FE23842E4945EE00CB845D /* Sources */,
+				80FE23852E4945EE00CB845D /* Frameworks */,
+				80FE23862E4945EE00CB845D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				80FE23FD2E4C062600CB845D /* ShoppingList */,
+				80FE238A2E4945EE00CB845D /* ShoppingList */,
 			);
 			name = ShoppingList;
 			packageProductDependencies = (
+				80FE23EE2E4B945600CB845D /* ShoppingListSDK */,
 			);
 			productName = ShoppingList;
-			productReference = 80FE23FB2E4C062600CB845D /* ShoppingList.app */;
+			productReference = 80FE23882E4945EE00CB845D /* ShoppingList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80FE240C2E4C062800CB845D /* ShoppingListTests */ = {
+		80FE23992E4945F000CB845D /* ShoppingListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80FE24242E4C062800CB845D /* Build configuration list for PBXNativeTarget "ShoppingListTests" */;
+			buildConfigurationList = 80FE23B12E4945F000CB845D /* Build configuration list for PBXNativeTarget "ShoppingListTests" */;
 			buildPhases = (
-				80FE24092E4C062800CB845D /* Sources */,
-				80FE240A2E4C062800CB845D /* Frameworks */,
-				80FE240B2E4C062800CB845D /* Resources */,
+				80FE23962E4945F000CB845D /* Sources */,
+				80FE23972E4945F000CB845D /* Frameworks */,
+				80FE23982E4945F000CB845D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80FE240F2E4C062800CB845D /* PBXTargetDependency */,
+				80FE239C2E4945F000CB845D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				80FE24102E4C062800CB845D /* ShoppingListTests */,
+				80FE239D2E4945F000CB845D /* ShoppingListTests */,
 			);
 			name = ShoppingListTests;
 			packageProductDependencies = (
 			);
 			productName = ShoppingListTests;
-			productReference = 80FE240D2E4C062800CB845D /* ShoppingListTests.xctest */;
+			productReference = 80FE239A2E4945F000CB845D /* ShoppingListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80FE24162E4C062800CB845D /* ShoppingListUITests */ = {
+		80FE23A32E4945F000CB845D /* ShoppingListUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80FE24272E4C062800CB845D /* Build configuration list for PBXNativeTarget "ShoppingListUITests" */;
+			buildConfigurationList = 80FE23B42E4945F000CB845D /* Build configuration list for PBXNativeTarget "ShoppingListUITests" */;
 			buildPhases = (
-				80FE24132E4C062800CB845D /* Sources */,
-				80FE24142E4C062800CB845D /* Frameworks */,
-				80FE24152E4C062800CB845D /* Resources */,
+				80FE23A02E4945F000CB845D /* Sources */,
+				80FE23A12E4945F000CB845D /* Frameworks */,
+				80FE23A22E4945F000CB845D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80FE24192E4C062800CB845D /* PBXTargetDependency */,
+				80FE23A62E4945F000CB845D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				80FE241A2E4C062800CB845D /* ShoppingListUITests */,
+				80FE23A72E4945F000CB845D /* ShoppingListUITests */,
 			);
 			name = ShoppingListUITests;
 			packageProductDependencies = (
 			);
 			productName = ShoppingListUITests;
-			productReference = 80FE24172E4C062800CB845D /* ShoppingListUITests.xctest */;
+			productReference = 80FE23A42E4945F000CB845D /* ShoppingListUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80FE23F32E4C062600CB845D /* Project object */ = {
+		80FE23802E4945EE00CB845D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					80FE23FA2E4C062600CB845D = {
+					80FE23872E4945EE00CB845D = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					80FE240C2E4C062800CB845D = {
+					80FE23992E4945F000CB845D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 80FE23FA2E4C062600CB845D;
+						TestTargetID = 80FE23872E4945EE00CB845D;
 					};
-					80FE24162E4C062800CB845D = {
+					80FE23A32E4945F000CB845D = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 80FE23FA2E4C062600CB845D;
+						TestTargetID = 80FE23872E4945EE00CB845D;
 					};
 				};
 			};
-			buildConfigurationList = 80FE23F62E4C062600CB845D /* Build configuration list for PBXProject "ShoppingList" */;
+			buildConfigurationList = 80FE23832E4945EE00CB845D /* Build configuration list for PBXProject "ShoppingList" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 80FE23F22E4C062600CB845D;
+			mainGroup = 80FE237F2E4945EE00CB845D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				80EEFCE52E4C97AA00374800 /* XCLocalSwiftPackageReference "ShoppingListPackage" */,
+				80FE23ED2E4B945600CB845D /* XCLocalSwiftPackageReference "ShoppingListPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 80FE23FC2E4C062600CB845D /* Products */;
+			productRefGroup = 80FE23892E4945EE00CB845D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80FE23FA2E4C062600CB845D /* ShoppingList */,
-				80FE240C2E4C062800CB845D /* ShoppingListTests */,
-				80FE24162E4C062800CB845D /* ShoppingListUITests */,
+				80FE23872E4945EE00CB845D /* ShoppingList */,
+				80FE23992E4945F000CB845D /* ShoppingListTests */,
+				80FE23A32E4945F000CB845D /* ShoppingListUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80FE23F92E4C062600CB845D /* Resources */ = {
+		80FE23862E4945EE00CB845D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FE240B2E4C062800CB845D /* Resources */ = {
+		80FE23982E4945F000CB845D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FE24152E4C062800CB845D /* Resources */ = {
+		80FE23A22E4945F000CB845D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,21 +241,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80FE23F72E4C062600CB845D /* Sources */ = {
+		80FE23842E4945EE00CB845D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FE24092E4C062800CB845D /* Sources */ = {
+		80FE23962E4945F000CB845D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80FE24132E4C062800CB845D /* Sources */ = {
+		80FE23A02E4945F000CB845D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,20 +265,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		80FE240F2E4C062800CB845D /* PBXTargetDependency */ = {
+		80FE239C2E4945F000CB845D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80FE23FA2E4C062600CB845D /* ShoppingList */;
-			targetProxy = 80FE240E2E4C062800CB845D /* PBXContainerItemProxy */;
+			target = 80FE23872E4945EE00CB845D /* ShoppingList */;
+			targetProxy = 80FE239B2E4945F000CB845D /* PBXContainerItemProxy */;
 		};
-		80FE24192E4C062800CB845D /* PBXTargetDependency */ = {
+		80FE23A62E4945F000CB845D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80FE23FA2E4C062600CB845D /* ShoppingList */;
-			targetProxy = 80FE24182E4C062800CB845D /* PBXContainerItemProxy */;
+			target = 80FE23872E4945EE00CB845D /* ShoppingList */;
+			targetProxy = 80FE23A52E4945F000CB845D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		80FE241F2E4C062800CB845D /* Debug */ = {
+		80FE23AC2E4945F000CB845D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		80FE24202E4C062800CB845D /* Release */ = {
+		80FE23AD2E4945F000CB845D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +397,7 @@
 			};
 			name = Release;
 		};
-		80FE24222E4C062800CB845D /* Debug */ = {
+		80FE23AF2E4945F000CB845D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -420,7 +426,7 @@
 			};
 			name = Debug;
 		};
-		80FE24232E4C062800CB845D /* Release */ = {
+		80FE23B02E4945F000CB845D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -449,7 +455,7 @@
 			};
 			name = Release;
 		};
-		80FE24252E4C062800CB845D /* Debug */ = {
+		80FE23B22E4945F000CB845D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		80FE24262E4C062800CB845D /* Release */ = {
+		80FE23B32E4945F000CB845D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,7 +493,7 @@
 			};
 			name = Release;
 		};
-		80FE24282E4C062800CB845D /* Debug */ = {
+		80FE23B52E4945F000CB845D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -504,7 +510,7 @@
 			};
 			name = Debug;
 		};
-		80FE24292E4C062800CB845D /* Release */ = {
+		80FE23B62E4945F000CB845D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -524,38 +530,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80FE23F62E4C062600CB845D /* Build configuration list for PBXProject "ShoppingList" */ = {
+		80FE23832E4945EE00CB845D /* Build configuration list for PBXProject "ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80FE241F2E4C062800CB845D /* Debug */,
-				80FE24202E4C062800CB845D /* Release */,
+				80FE23AC2E4945F000CB845D /* Debug */,
+				80FE23AD2E4945F000CB845D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80FE24212E4C062800CB845D /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
+		80FE23AE2E4945F000CB845D /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80FE24222E4C062800CB845D /* Debug */,
-				80FE24232E4C062800CB845D /* Release */,
+				80FE23AF2E4945F000CB845D /* Debug */,
+				80FE23B02E4945F000CB845D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80FE24242E4C062800CB845D /* Build configuration list for PBXNativeTarget "ShoppingListTests" */ = {
+		80FE23B12E4945F000CB845D /* Build configuration list for PBXNativeTarget "ShoppingListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80FE24252E4C062800CB845D /* Debug */,
-				80FE24262E4C062800CB845D /* Release */,
+				80FE23B22E4945F000CB845D /* Debug */,
+				80FE23B32E4945F000CB845D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80FE24272E4C062800CB845D /* Build configuration list for PBXNativeTarget "ShoppingListUITests" */ = {
+		80FE23B42E4945F000CB845D /* Build configuration list for PBXNativeTarget "ShoppingListUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80FE24282E4C062800CB845D /* Debug */,
-				80FE24292E4C062800CB845D /* Release */,
+				80FE23B52E4945F000CB845D /* Debug */,
+				80FE23B62E4945F000CB845D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -563,11 +569,18 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		80EEFCE52E4C97AA00374800 /* XCLocalSwiftPackageReference "ShoppingListPackage" */ = {
+		80FE23ED2E4B945600CB845D /* XCLocalSwiftPackageReference "ShoppingListPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ShoppingListPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80FE23EE2E4B945600CB845D /* ShoppingListSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShoppingListSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 80FE23F32E4C062600CB845D /* Project object */;
+	rootObject = 80FE23802E4945EE00CB845D /* Project object */;
 }
